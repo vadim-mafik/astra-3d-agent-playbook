@@ -1,5 +1,8 @@
 # Convergence pass
 
+> **Описание на русском:** Запрос для аккуратного завершения работы без добавления новых функций.
+
+
 Converge on the current best version.
 Prioritize remaining high-impact visual corrections only.
 Do not add new design features.
