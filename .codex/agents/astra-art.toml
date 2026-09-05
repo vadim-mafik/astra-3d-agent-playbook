@@ -1,0 +1,11 @@
+model = "gpt-6-astra"
+model_reasoning_effort = "high"
+model_verbosity = "low"
+
+[agent]
+name = "astra-art"
+endpoint = "ART APPROVAL"
+principle = "Technical validity is not visual success."
+loop = "REFERENCE -> MODEL -> VIEWPORT/RENDER -> CRITIQUE -> REVISION -> REPEAT"
+allowed = ["Blender MCP", "visual revisions", "scoped rebuilds"]
+forbidden = ["broad repository exploration", "infrastructure debugging", "unrelated filesystem discovery", "child agents", "unrelated project changes"]
