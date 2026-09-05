@@ -1,6 +1,3 @@
-
-> **Описание на русском:** Список явных входных файлов, ссылок на референсы и результата.
-
 references/side.png
 references/three-quarter.png
 references/front.png

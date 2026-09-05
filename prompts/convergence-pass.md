@@ -1,9 +1,18 @@
 # Convergence pass
 
-> **Описание на русском:** Запрос для аккуратного завершения работы без добавления новых функций.
+Use this near the end of a long art session, when the current version is already close and you want to prevent scope drift.
 
-
+```text
 Converge on the current best version.
-Prioritize remaining high-impact visual corrections only.
-Do not add new design features.
-Make one final viewport/render check and stop at ART APPROVAL.
+
+Preserve the established design direction. Do not add new features, ornaments, variants, or speculative improvements.
+
+Identify only the remaining high-impact visual corrections. Fix those in priority order.
+
+Avoid low-value polishing unless it is required by the acceptance criteria.
+
+Make one final viewport/render check from the required review angles.
+
+If the acceptance criteria are satisfied, stop at ART APPROVAL.
+Otherwise report the remaining blocker clearly and stop.
+```

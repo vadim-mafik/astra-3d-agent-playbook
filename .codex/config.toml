@@ -1,0 +1,6 @@
+[features]
+multi_agent = true
+
+[agents.astra-art]
+description = "Reference-driven visual 3D asset specialist for bounded Blender art passes."
+config_file = "agents/astra-art.toml"
