@@ -1,1 +1,7 @@
-{"task_id":"EXAMPLE_ART_TASK_001","art_ready":false,"blender_mcp_ready":false,"references_ready":false,"art_approved":false}
+{
+  "task_id": "EXAMPLE_ART_TASK_001",
+  "art_ready": false,
+  "blender_mcp_ready": false,
+  "references_ready": false,
+  "art_approved": false
+}
