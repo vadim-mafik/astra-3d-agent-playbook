@@ -1,11 +1,27 @@
 # Astra 3D Agent Playbook
 
-Практические workflow, agents и prompts для качественных 3D-ассетов с Astra и Blender MCP.
+Практическое руководство по созданию качественных 3D-моделей с помощью Astra и Blender MCP.
 
-🇬🇧 English: [README.md](README.md)
+🇬🇧 Английская версия: [README.md](https://github.com/vadim-mafik/astra-3d-agent-playbook/blob/main/README.md)
 
-Цепочка: дешёвая подготовка → чистая Astra High сессия → Blender MCP → model → viewport/render → critique → revision → повтор → ART APPROVAL → отдельная техническая интеграция.
+## Основная последовательность работы
 
-Technical validity is not visual success: первый mesh — черновик. MCP даёт визуальную обратную связь; Python полезен для детерминированной геометрии и batch-операций. Computer Use не обязателен.
+Сначала выполняется недорогая подготовка, затем запускается отдельный сеанс Astra High. После этого работа продолжается через Blender MCP:
 
-Подробности: [docs](docs), [prompts](prompts), [templates](templates/art-task). MIT: [LICENSE](LICENSE).
+**подготовка → чистый сеанс Astra High → Blender MCP → моделирование → просмотр сцены или рендера → критика → исправления → повторная проверка → художественная приёмка → отдельная техническая интеграция**
+
+## Главный принцип
+
+**Техническая исправность ещё не означает визуальный успех.**
+
+Первая созданная сетка — только черновик. Качественная модель получается в ходе повторных циклов: нужно посмотреть на сцену, найти наиболее заметные недостатки, исправить их и снова проверить результат.
+
+Blender MCP позволяет Astra напрямую работать с открытой сценой и получать наглядную обратную связь. Python по-прежнему удобен для точных операций с геометрией, пакетной обработки, однотипных преобразований и работы с данными. Computer Use для этого процесса не требуется.
+
+## Что находится в репозитории
+
+- [документация](https://github.com/vadim-mafik/astra-3d-agent-playbook/blob/main/docs);
+- [готовые запросы для Astra](https://github.com/vadim-mafik/astra-3d-agent-playbook/blob/main/prompts);
+- [шаблоны заданий](https://github.com/vadim-mafik/astra-3d-agent-playbook/blob/main/templates/art-task).
+
+Лицензия: [MIT](https://github.com/vadim-mafik/astra-3d-agent-playbook/blob/main/LICENSE).
