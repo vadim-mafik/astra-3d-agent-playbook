@@ -1,0 +1,6 @@
+references/side.png
+references/three-quarter.png
+references/front.png
+references/back.png
+references/pair.png
+output/sample_asset.blend
